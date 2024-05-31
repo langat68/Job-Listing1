@@ -139,6 +139,24 @@ main {
         opacity: 0;
     }
 }
+.container.featured {
+    border-left: 5px solid var(--dark-cyan);
+}
+
+.container img {
+    position: absolute;
+    bottom: 100%;
+    left: 15px;
+    transform: translateY(50%);
+    width: 60px;
+}
+
+.top {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin: .5em 0;
+}
 
 
 
