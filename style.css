@@ -11,3 +11,9 @@
     box-sizing: border-box;
 }
 
+:root {
+    --dark-cyan: hsl(180, 29%, 50%);
+    --bg-cyan: hsl(180, 52%, 96%);
+    --filter-cyan: hsl(180, 31%, 95%);
+    --dark-gray-cyan: hsl(180, 8%, 52%);
+    --very-dark-cyan: hsl(180, 14%, 20%);
