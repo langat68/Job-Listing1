@@ -5,3 +5,7 @@ let closes = [];
 let arr = [];
 
 const header = document.querySelector('header');
+
+(async function() {
+    let res = await fetch("./data.json");
+    let data = await res.json();
