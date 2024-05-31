@@ -3,3 +3,5 @@ const main = document.querySelector('main');
 const clear = document.querySelector('.clear');
 let closes = [];
 let arr = [];
+
+const header = document.querySelector('header');
