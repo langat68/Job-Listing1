@@ -48,3 +48,27 @@ const header = document.querySelector('header');
         span.textContent = 'Featured'
         container.querySelector('.stat').append(span);
         }
+        let types = curr.position.split(' ');
+
+        const btn1 = document.createElement('button');
+        btn1.dataset.type = curr.role;
+        btn1.textContent = curr.role;
+        container.querySelector('.tags').appendChild(btn1);
+
+        const btn2 = document.createElement('button');
+        btn2.dataset.type = curr.level;
+        btn2.textContent = curr.level;
+        container.querySelector('.tags').appendChild(btn2);
+
+        for (l of curr.languages) {
+            const btn = document.createElement('button');
+            btn.dataset.type = l;
+            btn.textContent = l;
+            container.querySelector('.tags').appendChild(btn);
+        }
+        for (t of curr.tools) {
+            const btn = document.createElement('button');
+            btn.dataset.type = t;
+            btn.textContent = t;
+            container.querySelector('.tags').appendChild(btn);
+        }
