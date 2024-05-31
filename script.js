@@ -31,3 +31,7 @@ const header = document.querySelector('header');
                 <li>${curr.location}</li>
             </ul>
         </div>
+        <hr>
+          
+          <div class="tags">
+          </div>`;
