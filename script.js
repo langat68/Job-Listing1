@@ -35,3 +35,16 @@ const header = document.querySelector('header');
           
           <div class="tags">
           </div>`;
+          if (curr.new) {
+            const span = document.createElement('span');
+            span.classList.add('new');
+            span.textContent = 'New!'
+            container.querySelector('.stat').append(span);
+        }
+        if (curr.featured) {
+        container.classList.add('featured');
+        const span = document.createElement('span');
+        span.classList.add('feature');
+        span.textContent = 'Featured'
+        container.querySelector('.stat').append(span);
+        }
