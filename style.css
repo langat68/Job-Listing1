@@ -80,3 +80,12 @@ header {
     cursor: pointer;
     transition: .13s ease;
 }
+
+
+.filter-sub button:hover {
+    background: var(--very-dark-cyan);
+}
+
+.filter-sub img {
+    margin: auto;
+}
